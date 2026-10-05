@@ -15,9 +15,9 @@ table.nextmatch th{
 border: 1px solid red;
 }
 
-table.netmatch.tr > *:nth-child(1) { width:45%; }
-table.netmatch.tr > *:nth-child(2) { width:10%; }
-table.netmatch.tr > *:nth-child(3) { width:45%; }
+table.netmatch.td > *:nth-child(1) { width:45%; }
+table.netmatch.td > *:nth-child(2) { width:10%; }
+table.netmatch.td > *:nth-child(3) { width:45%; }
 
 
 .nextmatch .joukkuenimi td{ text-align: center  !important; }
@@ -257,6 +257,12 @@ p {
         background:white;
         color:black;
       }
+      table td:nth-child(1) { width: 15%; }
+      table td:nth-child(2) { width: 10%; }
+      table td:nth-child(3) { width: 30%; }
+      table td:nth-child(4) { width: 30%; }
+      table td:nth-child(5) { width: 15%; }
+
         table #updated{
         display:none;
         @media only screen and (max-width: 768px) {
