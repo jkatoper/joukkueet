@@ -4,7 +4,7 @@
     }
     
     
-.pitch { display: none; }
+
 Table.nextmatch td{border: 1px solid red;}
 table.nextmatch{
 border-collapse: separate;
@@ -14,6 +14,12 @@ table.nextmatch td,
 table.nextmatch th{
 border: 1px solid red;
 }
+
+table.netmatch.tr > *:nth-child(1) { width:45%; }
+table.netmatch.tr > *:nth-child(2) { width:10%; }
+table.netmatch.tr > *:nth-child(3) { width:45%; }
+
+
 .nextmatch .joukkuenimi td{ text-align: center  !important; }
 .nextmatch .livelogo { text-align: center  !important; }
 
@@ -64,7 +70,6 @@ p {
   .torneopal_widget #updated{
     display:none;
   }
-  .pitch { display: none; }
   .position{ display: none; }
   .goal{ display: none; }
   .yellowcard{ display: none; }
@@ -103,8 +108,6 @@ p {
 .torneopal_widget h3 { display:none;}
 .torneopal_widget .scheduletable > caption {height:0px;}
 .competitionname {display: none;}
-.pitch {display:none;}
-
 
 .torneopal_widget .team_players{  
     width: 100%;  
@@ -132,9 +135,6 @@ p {
   .torneopal_widget .team_players tr:nth-child(even) td{
     background:white;
   }
-
-  .pitch { display: none; }
-
 
 .torneopal_widget .scheduletable{  
     width: 100%;  
@@ -170,9 +170,6 @@ p {
   .torneopal_widget h3 { display:none;}
   .torneopal_widget .scheduletable > caption {height:0px;}
   .competitionname {display: none;}
-  .pitch {display:none;}
-  
-  
   
   .torneopal_widget .scoretable{  
       width: 100%;  
@@ -232,7 +229,6 @@ p {
       
     }
   
-    .pitch { display: none; }
     table td{
       border: 1px solid red;
       padding: 4px 4px;
@@ -240,41 +236,41 @@ p {
       height:auto;
       }
       
-              table, th, td {
-                  font-family:Ubuntu,Arial;
-                  border:1px solid red;
-                  padding:4px 4px;       
-              }
+        table, th, td {
+            font-family:Ubuntu,Arial;
+            border:1px solid red;
+            padding:4px 4px;       
+        }
       
-              table th{
-                  text-align:center;
-                  background:red;
-                  color:yellow;
-                  padding:4px 4px;     
-              }
-              table td{
-                  text-align:center;
-                  background:yellow;
-                  padding:4px 4px;
-              }
-              table tr:nth-child(even) td{
-              background:white;
-              color:black;
-            }
-              table #updated{
-              display:none;
-              @media only screen and (max-width: 768px) {
-              table th,
-              table td {
-                  font-size: 12px;
-              }
-              }
-               @media only screen and (max-width: 600px) {
-              table th,
-              table td {
-                  font-size: 10px;
-              }
-              }
+        table th{
+            text-align:center;
+            background:red;
+            color:yellow;
+            padding:4px 4px;     
+        }
+        table td{
+            text-align:center;
+            background:yellow;
+            padding:4px 4px;
+        }
+        table tr:nth-child(even) td{
+        background:white;
+        color:black;
+      }
+        table #updated{
+        display:none;
+        @media only screen and (max-width: 768px) {
+        table th,
+        table td {
+            font-size: 12px;
+        }
+        }
+          @media only screen and (max-width: 600px) {
+        table th,
+        table td {
+            font-size: 10px;
+        }
+      }
       
   
    
